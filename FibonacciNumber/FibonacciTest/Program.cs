@@ -12,7 +12,7 @@ namespace FibonacciNumber
         static void Main(string[] args)
         {
             FibNumber f = new FibNumber();
-            Console.WriteLine(f[7]);
+            Console.WriteLine(f[33]);
             Console.ReadKey();
         }
     }

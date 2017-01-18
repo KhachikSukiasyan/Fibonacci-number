@@ -9,7 +9,7 @@ namespace FibonacciNumber
     public class FibNumber
     {
 
-        public int this[int k]
+        public decimal this[int k]
         {
            get
            {
@@ -23,16 +23,16 @@ namespace FibonacciNumber
            }
         }
 
-       private int function(int k)
+       private decimal function(int k)
         {
             if (k == 0 || k == 1)
                 return 1;
             if (k == 2)
                 return 2;
 
-            int k1 = 1;
-            int k2 = 1;
-            int k3 = 2;
+            decimal k1 = 1;
+            decimal k2 = 1;
+            decimal k3 = 2;
 
             for (int i = 0; i < k - 2; i++)
             {
