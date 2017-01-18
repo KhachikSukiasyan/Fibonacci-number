@@ -10,5 +10,5 @@ By `FibNumber` class you can get the n-th fibonacci number.Use index!
 Example:
 ```c#
 FibNumber f = new FibNumber();
-Console.WriteLine(f[33]); // prints 21
+Console.WriteLine(f[7]); // prints 21
 ```
